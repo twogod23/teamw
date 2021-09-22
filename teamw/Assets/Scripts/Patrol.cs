@@ -35,7 +35,7 @@ public class Patrol : MonoBehaviour {
         GotoNextPoint();
 
         //追跡したいオブジェクトの名前を入れる
-        player = GameObject.Find("player");
+        player = GameObject.Find("Player");
     }
 
 

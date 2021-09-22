@@ -18,7 +18,7 @@ public class EggController : MonoBehaviour {
 	//　地面に接地しているかどうか
 	[SerializeField]
 	private bool isGrounded;
-	//　前方の壁に衝突しているかどうか
+	//　衝突しているかどうか
 	[SerializeField]
 	private bool isCollision;
 	//　接地確認のコライダの位置のオフセット
@@ -47,7 +47,6 @@ public class EggController : MonoBehaviour {
  
 	void Update() {
 		if (isGrounded && !isTouch) {
-			//　接地したので移動速度を0にする
 			velocity = Vector3.zero;
             input.x = Input.GetAxis("Horizontal");
 			input.z = Input.GetAxis("Vertical");
@@ -93,7 +92,7 @@ public class EggController : MonoBehaviour {
             rigid.velocity = moveForward * walkSpeed;
 		}
 
-		if (isGrounded && isCollision && isTouch) {
+		if (isCollision && isTouch) {
 			velocity = new Vector3(0f, 0f, 0f);
 		}
 	}
@@ -101,8 +100,7 @@ public class EggController : MonoBehaviour {
 	private void OnCollisionEnter(Collision collision) {
 		//　指定したコライダと接触、かつ接触確認コライダと接触していたら衝突状態にする
 		if (Physics.CheckSphere(rigid.position + transform.up * collisionPositionOffset.y + transform.forward * collisionPositionOffset.z, collisionColliderRadius, ~LayerMask.GetMask("Player"))) {
-			isCollision = true;
-			isTouch = true;
+				isCollision = true;
 		}
 		//生き物とぶつかったらアニメーションを再生して操作できなくする
         Debug.Log("hit");
@@ -112,58 +110,66 @@ public class EggController : MonoBehaviour {
 
             if (collision.gameObject.CompareTag("Animal") && (relativePoint.x > 0.2)){
                 Debug.Log("Right");
+				isTouch = true;	
 				animator.SetTrigger("HitBack");
-				isTouch = true;
 			}
 
 
             else if (collision.gameObject.CompareTag("Animal") && (relativePoint.x < -0.2)){
                 Debug.Log("Left");
-			    animator.SetTrigger("HitForward");
-				isTouch = true;
+			    isTouch = true;
+				animator.SetTrigger("HitForward");
 			}
 
             if (collision.gameObject.CompareTag("Animal") && (relativePoint.z > 0.2)){
                 Debug.Log("Forward");
-				animator.SetTrigger("HitForward");
 				isTouch = true;
+				animator.SetTrigger("HitForward");
 			}
 
             else if (collision.gameObject.CompareTag("Animal") && (relativePoint.z < -0.2)){
                 Debug.Log("Back");
-				animator.SetTrigger("HitBack");
 				isTouch = true;
+				animator.SetTrigger("HitBack");
 			}
 
             if (collision.gameObject.CompareTag("Human") && (relativePoint.x > 0.2)){
                 Debug.Log("Right");
-				animator.SetTrigger("HitBack");
 				isTouch = true;
+				animator.SetTrigger("HitBack");
 			}
 
 
             else if (collision.gameObject.CompareTag("Human") && (relativePoint.x < -0.2)){
                 Debug.Log("Left");
-			    animator.SetTrigger("HitForward");
-				isTouch = true;
+			    isTouch = true;
+				animator.SetTrigger("HitForward");	
 			}
 
             if (collision.gameObject.CompareTag("Human") && (relativePoint.z > 0.2)){
                 Debug.Log("Forward");
-				animator.SetTrigger("HitForward");
 				isTouch = true;
+				animator.SetTrigger("HitForward");
 			}
 
             else if (collision.gameObject.CompareTag("Human") && (relativePoint.z < -0.2)){
                 Debug.Log("Back");
-				animator.SetTrigger("HitBack");
 				isTouch = true;
+				animator.SetTrigger("HitBack");
 			}
 
 			//動物とぶつかったらエンド2へ
-			if (collision.gameObject.CompareTag("Human") && (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f))
+			if (collision.gameObject.CompareTag("Animal") && (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f))
             {
 				SceneManager.LoadScene("sub2");
+				isTouch = true;
+				isCollision= true;
+            }
+
+			//人間とぶつかったらエンド3へ
+			if (collision.gameObject.CompareTag("Human") && (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f))
+            {
+				SceneManager.LoadScene("sub");
 				isTouch = true;
 				isCollision= true;
             }
@@ -183,10 +189,6 @@ public class EggController : MonoBehaviour {
 		}
 	}
  
-	void OnCollisionExit(Collision collision) {
-		//　指定したコライダと離れたら衝突していない状態にする
-		isCollision = false;
-	}
  
 	void OnDrawGizmos() {
 		//　接地確認のギズモ

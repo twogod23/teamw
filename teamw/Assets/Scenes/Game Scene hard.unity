@@ -1830,7 +1830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &57223729
@@ -5293,7 +5293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &196407718
@@ -7411,7 +7411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &272433347
@@ -7588,7 +7588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 275427844}
   m_LocalRotation: {x: 0.05429256, y: 0.7301668, z: 0.6785989, w: -0.058415998}
-  m_LocalPosition: {x: 69.456024, y: -38.655746, z: 36.65378}
+  m_LocalPosition: {x: 77.14714, y: 20.129898, z: 98.42253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -13496,7 +13496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &500147613
@@ -18858,7 +18858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &731408352
@@ -24146,7 +24146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &917577720
@@ -25391,7 +25391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &963890423
@@ -26755,7 +26755,7 @@ GameObject:
   - component: {fileID: 1026569731}
   m_Layer: 0
   m_Name: farmer_black_03 (1)
-  m_TagString: Untagged
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34976,7 +34976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &1311374301
@@ -36633,7 +36633,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385961422}
   m_LocalRotation: {x: 0.05429256, y: 0.7301668, z: 0.6785989, w: -0.058415998}
-  m_LocalPosition: {x: 70.88354, y: 35.939816, z: 19.385365}
+  m_LocalPosition: {x: 96.78982, y: -6.876114, z: 98.46579}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -38259,7 +38259,7 @@ GameObject:
   - component: {fileID: 1435221311}
   m_Layer: 0
   m_Name: farmer_black_03 (2)
-  m_TagString: Untagged
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45469,7 +45469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &1697139619
@@ -48494,7 +48494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &1791059711
@@ -57656,7 +57656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &2111533247
@@ -60773,7 +60773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8797485238612964478}
-  moveSpeed: 4
+  moveSpeed: 3.9
   stopDistance: 0
   moveDistance: 15
 --- !u!111 &1675371424442705714
@@ -65015,7 +65015,7 @@ GameObject:
   - component: {fileID: 6116968764785512488}
   m_Layer: 0
   m_Name: farmer_black_03
-  m_TagString: Untagged
+  m_TagString: Human
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

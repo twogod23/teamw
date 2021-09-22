@@ -143,7 +143,7 @@ public class EggController : MonoBehaviour {
             else if (collision.gameObject.CompareTag("Human") && (relativePoint.x < -0.2)){
                 Debug.Log("Left");
 			    isTouch = true;
-				animator.SetTrigger("HitForward");	
+				animator.SetTrigger("HitForward");
 			}
 
             if (collision.gameObject.CompareTag("Human") && (relativePoint.z > 0.2)){

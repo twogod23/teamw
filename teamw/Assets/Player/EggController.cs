@@ -39,6 +39,7 @@ public class EggController : MonoBehaviour {
 		rigid = GetComponent<Rigidbody>();
 		isTouch = false;
 		isCollision = false;
+		isGrounded = true;
 		//　歩く速さ
 	    walkSpeed = 4.5f;
 	}
@@ -51,7 +52,6 @@ public class EggController : MonoBehaviour {
             input.x = Input.GetAxis("Horizontal");
 			input.z = Input.GetAxis("Vertical");
 			input.Normalize();
-			
  
 			//　方向キーが多少押されている
 			if (input.magnitude > 0f) {
@@ -82,8 +82,8 @@ public class EggController : MonoBehaviour {
 	}
  
 	void FixedUpdate() {
-		if(!isTouch)
-		{
+		if(isGrounded && !isTouch)
+		{		
 		    // カメラの方向から、X-Z平面の単位ベクトルを取得
             Vector3 cameraForward = Vector3.Scale(Camera.main.transform.forward, new Vector3(1, 0, 1)).normalized;
  
@@ -91,7 +91,6 @@ public class EggController : MonoBehaviour {
             Vector3 moveForward = cameraForward * Input.GetAxis("Vertical") + Camera.main.transform.right * Input.GetAxis("Horizontal");
             // 移動方向にスピードを掛ける。
             rigid.velocity = moveForward * walkSpeed;
-			rigid.velocity.Normalize();
 		}
 
 		if (isGrounded && isCollision && isTouch) {
@@ -171,15 +170,15 @@ public class EggController : MonoBehaviour {
 
 			if(collision.gameObject.name =="SpeedItem")
 			{
-				walkSpeed = 4f * 1.2f;
+				walkSpeed = 4.5f * 1.2f;
 			}
 			if(collision.gameObject.name =="SpeedItema")
 			{
-				walkSpeed = 4f * 1.2f * 1.2f;
+				walkSpeed = 4.5f * 1.2f * 1.2f;
 			}
             if(collision.gameObject.name =="SpeedItemb")
 			{
-				walkSpeed = 4f * 1.2f * 1.2f * 1.2f;
+				walkSpeed = 4.5f * 1.2f * 1.2f * 1.2f;
 			}
 		}
 	}

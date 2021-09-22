@@ -176,15 +176,15 @@ public class EggController : MonoBehaviour {
 
 			if(collision.gameObject.name =="SpeedItem")
 			{
-				walkSpeed = 4.5f * 1.2f;
+				walkSpeed = 4f * 1.2f;
 			}
 			if(collision.gameObject.name =="SpeedItema")
 			{
-				walkSpeed = 4.5f * 1.2f * 1.2f;
+				walkSpeed = 4f * 1.2f * 1.2f;
 			}
             if(collision.gameObject.name =="SpeedItemb")
 			{
-				walkSpeed = 4.5f * 1.2f * 1.2f * 1.2f;
+				walkSpeed = 4f * 1.2f * 1.2f * 1.2f;
 			}
 		}
 	}

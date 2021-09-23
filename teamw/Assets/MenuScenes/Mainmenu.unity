@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 539700770}
   - component: {fileID: 539700773}
   m_Layer: 5
-  m_Name: CreditButton
+  m_Name: RuleButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8c38e3c4e4933d94ebcafbf57dc5031f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bfaddccbdbcb34d438961ea96a39abd1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffe3d6af412826d45b0669178906641a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e5d3c01a75b19c3469a6bbf73d17202e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ffe3d6af412826d45b0669178906641a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f74ffa27256066045beea04f78986e2d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a20c5807928c443408b25f7f1571b5b0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82ec91eb108c31c41976212ff97ba0ec, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

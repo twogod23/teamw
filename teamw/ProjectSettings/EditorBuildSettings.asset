@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/MenuScenes/Method.unity
     guid: 8831af69cbeb53b4f8d3a72535b9aa8c
   - enabled: 1
-    path: Assets/MenuScenes/Credit.unity
-    guid: 8b253889d98777e4cbab76eab4b0919e
+    path: Assets/MenuScenes/Rule.unity
+    guid: bb495f8a009f4c04da03c3c882ed48ab
   m_configObjects: {}

@@ -7,7 +7,8 @@ public class EasyButtonScript : MonoBehaviour
     //ボタンが押されたときに呼び出される関数
     public void Select()
     {
-        //行われる操作
-        Debug.Log("EASY");
+        Debug.Log("easy");
+        //行われる操作　プレイシーン(easy)へ移動
+        //←シーン結合後に消去　SceneManager.LoadScene("Game Scene easy");
     }
 }

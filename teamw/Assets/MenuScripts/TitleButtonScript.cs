@@ -38,3 +38,10 @@ public class TitleButtonScript : MonoBehaviour
 //Canvas内のオブジェクトは上が奥、下が手前に表示される
 
 //シーン遷移を設定する際は、File⇒BuildSettingにシーンを登録することを忘れない
+
+//ボタン操作音の設定
+//1.HierarchyからAudioSource(Audio内)を新規作成
+//2.AudioSource内のAudioClipに音源を設定し、PlayOnAwakeの欄のチェックを外す
+//3.ボタンのオブジェクトのInspector内のButtonのOnClick()で＋を押して新たに項目を作る
+//4.◎の欄にAudioSourceのオブジェクトを設定し、NoFunctionをAudioSource⇒PlayOneShot(AudioClip)に変更
+//5.さらに右下の◎の欄に音源を設定する

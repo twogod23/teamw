@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HardButtonScript : MonoBehaviour
 {
@@ -9,6 +10,6 @@ public class HardButtonScript : MonoBehaviour
     {
         Debug.Log("hard");
         //行われる操作 ゲームシーン(hard)へ移動
-        //←シーン結合後に消去　SceneManager.LoadScene("Game Scene hard");
+        SceneManager.LoadScene("Game Scene hard");
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EasyButtonScript : MonoBehaviour
 {
@@ -9,6 +10,6 @@ public class EasyButtonScript : MonoBehaviour
     {
         Debug.Log("easy");
         //行われる操作　プレイシーン(easy)へ移動
-        //←シーン結合後に消去　SceneManager.LoadScene("Game Scene easy");
+        SceneManager.LoadScene("Game Scene easy");
     }
 }

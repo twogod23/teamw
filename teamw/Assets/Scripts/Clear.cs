@@ -9,7 +9,7 @@ public class Clear : MonoBehaviour {
 
     void OnTriggerEnter(Collider collider){
         if (collider.gameObject.tag == "Player") {
-        SceneManager.LoadScene("sub2");
+        SceneManager.LoadScene("Ending6");
         Debug.Log("OnTrigger");
         }
     }

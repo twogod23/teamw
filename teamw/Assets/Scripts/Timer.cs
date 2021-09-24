@@ -28,7 +28,7 @@ public class Timer : MonoBehaviour
         } else{
             totalTime = 0;
             time_text.text = "制限時間  0";
-            SceneManager.LoadScene("sub2");
+            SceneManager.LoadScene("Ending9");
         }
     }
 }

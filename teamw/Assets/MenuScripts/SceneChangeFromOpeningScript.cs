@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneChangeFromOpeningScript : MonoBehaviour
 {
      //シーンが変わる時間(changetime)を指定
-    private float changetime = 150.0F;
+    private float changetime = 85.0F;
 
     private float starttime;
 

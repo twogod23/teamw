@@ -15,11 +15,11 @@ C:/Users/akito/Documents/GitHub/teamw/teamw
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56941
+56266
 Successfully changed project path to: C:/Users/akito/Documents/GitHub/teamw/teamw
 C:/Users/akito/Documents/GitHub/teamw/teamw
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 41.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.17f1 (a4537701e4ab)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -35,75 +35,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006119 seconds.
+Registered in 0.006457 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 32.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 42.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.372 seconds
+- Completed reload, in  2.310 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2373ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (2311ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (337ms)
-			LoadAssemblies (38ms)
+		EndReloadAssembly (368ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (117ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (131ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (155ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (33ms)
+				RefreshPlugins (43ms)
 				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (61ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014122 seconds.
+Registered in 0.016692 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (880ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (717ms)
-			LoadAssemblies (86ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (93ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (308ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (246ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (261ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1515 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.9 MB.
-System memory in use after: 96.6 MB.
+System memory in use after: 96.7 MB.
 
 Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1974.
-Total: 2.666100 ms (FindLiveObjects: 0.115100 ms CreateObjectMapping: 0.028100 ms MarkObjects: 2.166600 ms  DeleteObjects: 0.355100 ms)
+Total: 5.463800 ms (FindLiveObjects: 0.145400 ms CreateObjectMapping: 0.038400 ms MarkObjects: 4.982100 ms  DeleteObjects: 0.296400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,146 +135,126 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MenuScenes/Mainmenu.unity
-  artifactKey: Guid(2514c263b230d9d47aa71929504b8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScenes/Mainmenu.unity using Guid(2514c263b230d9d47aa71929504b8d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a398d9799a40b281dcd4c974f37db8d3') in 0.020243 seconds 
-  Import took 0.024638 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/MenuScenes/Rule.unity
-  artifactKey: Guid(bb495f8a009f4c04da03c3c882ed48ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScenes/Rule.unity using Guid(bb495f8a009f4c04da03c3c882ed48ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98aab935ab008058e7437a079897a913') in 0.007701 seconds 
-  Import took 0.010722 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.244834 seconds.
-  path: Assets/MenuScenes/Method.unity
-  artifactKey: Guid(8831af69cbeb53b4f8d3a72535b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScenes/Method.unity using Guid(8831af69cbeb53b4f8d3a72535b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b3b2f3e3bf8329a668b80ad86060fb') in 0.009457 seconds 
-  Import took 0.013078 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.4 MB.
-System memory in use after: 65.1 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1974.
-Total: 2.939500 ms (FindLiveObjects: 0.129300 ms CreateObjectMapping: 0.035400 ms MarkObjects: 2.457600 ms  DeleteObjects: 0.316300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 154.274611 seconds.
-  path: Assets/MenuScenes/Method.unity
-  artifactKey: Guid(8831af69cbeb53b4f8d3a72535b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScenes/Method.unity using Guid(8831af69cbeb53b4f8d3a72535b9aa8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4ccf7d5cabee0f8e257e4d039ffcd8') in 0.005714 seconds 
-  Import took 0.010202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.330740 seconds.
-  path: Assets/MenuScripts/EasyButtonScript.cs
-  artifactKey: Guid(2c47673f3a17b7f41ba637a9ffddb7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScripts/EasyButtonScript.cs using Guid(2c47673f3a17b7f41ba637a9ffddb7c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d91b9d81831fe3d50bb1030f10d1ad') in 0.031680 seconds 
-  Import took 0.034276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.348819 seconds.
-  path: Assets/EndingScenes/EndingScript
-  artifactKey: Guid(4b745c8de4ea8da49bea0feee17876c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndingScenes/EndingScript using Guid(4b745c8de4ea8da49bea0feee17876c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345be7741c3446d099d783a42142a19b') in 0.009413 seconds 
-  Import took 0.012855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.571113 seconds.
-  path: Assets/EndingScenes/EndingScript/ToTitleScripts.cs
-  artifactKey: Guid(164e7cc329806ec478b13d4dc7052b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EndingScenes/EndingScript/ToTitleScripts.cs using Guid(164e7cc329806ec478b13d4dc7052b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94726ccf7a86f4b1235d996a6003845e') in 0.009346 seconds 
-  Import took 0.012793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.074015 seconds.
-  path: Assets/Scripts/FarmerScript
-  artifactKey: Guid(2951c1aa36d9de34098515d941286f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FarmerScript using Guid(2951c1aa36d9de34098515d941286f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155b58759e9d016f1d8d13a328b45845') in 0.012552 seconds 
-  Import took 0.015630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.885670 seconds.
-  path: Assets/Scripts/ItemS
-  artifactKey: Guid(20b8b108edf10534bb2a41432c01ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ItemS using Guid(20b8b108edf10534bb2a41432c01ba80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d4148223514b1033485086e5a83739') in 0.010810 seconds 
-  Import took 0.014305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.903530 seconds.
-  path: Assets/Scripts/Timer.cs
-  artifactKey: Guid(40e2801a6496b2446829ed47b6b9bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Timer.cs using Guid(40e2801a6496b2446829ed47b6b9bdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d09978cf1eb21b561947a2b629b60f') in 0.011626 seconds 
-  Import took 0.014799 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.033886 seconds.
-  path: Assets/MenuScenes/Game Scene hard.unity
-  artifactKey: Guid(0d7fbb3eefefc774c8dd00e3360ffbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MenuScenes/Game Scene hard.unity using Guid(0d7fbb3eefefc774c8dd00e3360ffbcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693470013d97fb7bd34a7fdffb5f36ea') in 0.007765 seconds 
-  Import took 0.012426 seconds .
+  path: Assets/Scripts
+  artifactKey: Guid(21ca27e89839e814797897cbfe561fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(21ca27e89839e814797897cbfe561fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e006edf9ed9252213a338c1af6672c0') in 0.021390 seconds 
+  Import took 0.025920 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005750 seconds.
+Registered in 0.006539 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.752 seconds
+- Completed reload, in  0.930 seconds
 Domain Reload Profiling:
-	ReloadAssembly (752ms)
-		BeginReloadAssembly (95ms)
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (615ms)
-			LoadAssemblies (59ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (180ms)
+			SetupTypeCache (258ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (275ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (285ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (36ms)
-				ProcessInitializeOnLoadAttributes (225ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (227ms)
 				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 2.745600 ms (FindLiveObjects: 0.117900 ms CreateObjectMapping: 0.033500 ms MarkObjects: 2.281100 ms  DeleteObjects: 0.312100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.733052 seconds.
+  path: Assets/Scripts/StartAnnounce.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnounce.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728fbfe86cf8ac335ce109335bfb5ffd') in 0.027604 seconds 
+  Import took 0.030944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.984823 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfd02ef578786ef5d9b0e73d96f6d72') in 0.011793 seconds 
+  Import took 0.015542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021756 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfd02ef578786ef5d9b0e73d96f6d72') in 0.001762 seconds 
+  Import took 0.004434 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002409 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -282,12 +262,2030 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1489 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.8 MB.
-System memory in use after: 94.5 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 4.078100 ms (FindLiveObjects: 0.154700 ms CreateObjectMapping: 0.044400 ms MarkObjects: 3.489200 ms  DeleteObjects: 0.388400 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1979.
+Total: 3.494000 ms (FindLiveObjects: 0.130300 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.992300 ms  DeleteObjects: 0.326500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 651.666540 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0fde82325bbc145da8516dca81a2d8') in 0.006109 seconds 
+  Import took 0.011428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001097 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0fde82325bbc145da8516dca81a2d8') in 0.002202 seconds 
+  Import took 0.004621 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (852ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1981.
+Total: 3.094300 ms (FindLiveObjects: 0.131500 ms CreateObjectMapping: 0.040500 ms MarkObjects: 2.580200 ms  DeleteObjects: 0.340900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.120060 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69175f38bb9f23363e010d3d4cb6b08') in 0.005336 seconds 
+  Import took 0.009650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.917857 seconds.
+  path: Assets/Scripts/SheepWandering.cs
+  artifactKey: Guid(e1bb0037f3260e74c8dc70e4ae60331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SheepWandering.cs using Guid(e1bb0037f3260e74c8dc70e4ae60331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eca97d803ed054e5a984dad3c81e8c') in 0.008120 seconds 
+  Import took 0.011209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001153 seconds.
+  path: Assets/Scripts/SheepWandering.cs
+  artifactKey: Guid(e1bb0037f3260e74c8dc70e4ae60331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SheepWandering.cs using Guid(e1bb0037f3260e74c8dc70e4ae60331c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63eca97d803ed054e5a984dad3c81e8c') in 0.002512 seconds 
+  Import took 0.005852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.573018 seconds.
+  path: Assets/Scripts/Patrol.cs
+  artifactKey: Guid(a3ae383b3bb3485438e0df20948fd9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Patrol.cs using Guid(a3ae383b3bb3485438e0df20948fd9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e46e0cdbdd967d008a778196b598525') in 0.007767 seconds 
+  Import took 0.011980 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003396 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.8 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1983.
+Total: 3.239000 ms (FindLiveObjects: 0.143000 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.696000 ms  DeleteObjects: 0.358600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 612.269208 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfca823d859e04143a20b86ce5329e5') in 0.005071 seconds 
+  Import took 0.007440 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002504 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.787 seconds
+Domain Reload Profiling:
+	ReloadAssembly (788ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (643ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 94.6 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1985.
+Total: 3.371000 ms (FindLiveObjects: 0.130600 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.723300 ms  DeleteObjects: 0.467500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.008549 seconds.
+  path: Assets/Scripts/RelayTrigger.cs
+  artifactKey: Guid(838bc0eb13121e74398deb4b2c6bdac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RelayTrigger.cs using Guid(838bc0eb13121e74398deb4b2c6bdac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648c4e9ac4b566d61aab38c6d2d1293') in 0.011663 seconds 
+  Import took 0.014486 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002365 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (739ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.0 MB.
+System memory in use after: 94.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 3.074100 ms (FindLiveObjects: 0.153500 ms CreateObjectMapping: 0.035000 ms MarkObjects: 2.469600 ms  DeleteObjects: 0.414500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 283.867671 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c3fd9895076b1ab1c716bd552eaebe') in 0.007397 seconds 
+  Import took 0.012501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.617320 seconds.
+  path: Assets/eggs/3d-model.fbx
+  artifactKey: Guid(984683f626326ce45be7e2bc5ed45ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/eggs/3d-model.fbx using Guid(984683f626326ce45be7e2bc5ed45ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6249704e8ed54a4bd0f43828784547b4') in 0.298509 seconds 
+  Import took 0.301511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Barrel/Barrel LOD 1.fbx
+  artifactKey: Guid(70684f5c9d2ceca4e8c96c0a9fb606bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Barrel/Barrel LOD 1.fbx using Guid(70684f5c9d2ceca4e8c96c0a9fb606bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b086863371238a2588e094b4f2c1aae') in 0.425422 seconds 
+  Import took 0.428617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667b0ed0c31829525851ee8c668baec') in 0.112020 seconds 
+  Import took 0.115541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab
+  artifactKey: Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Axe 1.prefab using Guid(9cab7697c66aece498d729b4a64241fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc920a1aa4546ca812b1864c381b7074') in 0.085501 seconds 
+  Import took 0.088910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab
+  artifactKey: Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Afterburner.prefab using Guid(d8c41be67f41aa545ae053b0b927f821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9667b0ed0c31829525851ee8c668baec') in 0.011244 seconds 
+  Import took 0.015173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/SE/AudioPlayer.prefab
+  artifactKey: Guid(f9eb221d926a0e444865ab2be9feea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SE/AudioPlayer.prefab using Guid(f9eb221d926a0e444865ab2be9feea4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defabf2547973b37b8e08ea4bba61943') in 0.010700 seconds 
+  Import took 0.015224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Axe/Axe.fbx
+  artifactKey: Guid(a6d5e45425fcde944b7af507cfa4e04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Axe/Axe.fbx using Guid(a6d5e45425fcde944b7af507cfa4e04f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce32937752d64a8cf58b9bcc9cb00db') in 0.048355 seconds 
+  Import took 0.051427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab
+  artifactKey: Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Barrel.prefab using Guid(d33067713c4ea684297c7899a427215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b98d2e67a1dad0c03cc87366f8354d') in 0.079582 seconds 
+  Import took 0.083873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab
+  artifactKey: Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/AIThirdPersonController.prefab using Guid(54eb5844754051b40a918a84c33b7c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8c05a697b1e28999e0f2ff30259bf0') in 0.452259 seconds 
+  Import took 0.458444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.146934 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Big Rig.prefab
+  artifactKey: Guid(f042cb04bb98f4649ad4d54da66f8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Big Rig.prefab using Guid(f042cb04bb98f4649ad4d54da66f8100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ea73db3c56cdf0c871a37491dec9d0') in 0.127000 seconds 
+  Import took 0.131149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c7fbf876feba46d83d9432b65cdfc35') in 0.012427 seconds 
+  Import took 0.016072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000579 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab
+  artifactKey: Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Box.prefab using Guid(7042f0c5fc091464cbd29ca102694e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89164c3ffa1fe21199bf7d2e998f594') in 0.160697 seconds 
+  Import took 0.166723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000926 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab
+  artifactKey: Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/BlobLightProjector.prefab using Guid(21543d2b66928224f8a9536ff3811682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a656eb3592c3964760df0317e5379218') in 0.011669 seconds 
+  Import took 0.016360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Box/Box.fbx
+  artifactKey: Guid(39363f00fbd9d1046a7d053529f529ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Box/Box.fbx using Guid(39363f00fbd9d1046a7d053529f529ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7dbf2ab67379f59664ed888e290421') in 0.087199 seconds 
+  Import took 0.092138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 1.fbx
+  artifactKey: Guid(a753de0bfd95fb945905768c01ca0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 1.fbx using Guid(a753de0bfd95fb945905768c01ca0b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f022514f54515b2c4020f5aa07bf10') in 0.271183 seconds 
+  Import took 0.276721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 3.fbx
+  artifactKey: Guid(b39d909098acdc6438b3fd6c0c4a27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 3.fbx using Guid(b39d909098acdc6438b3fd6c0c4a27c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc9ddbaecfd888c7015aa6cfbe67da5') in 0.117320 seconds 
+  Import took 0.120121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm
+  artifactKey: Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop.spm using Guid(c91c1eb85782d5748ace27eb4d7415bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69c44ae6aef93e54df8bee6d67165ad') in 0.755021 seconds 
+  Import took 0.757780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Fences/Cages.prefab
+  artifactKey: Guid(7db929d144122954a86b5f37c1ac2c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Cages.prefab using Guid(7db929d144122954a86b5f37c1ac2c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc06d3e7ce5d30ff3672fde385f9886') in 0.090458 seconds 
+  Import took 0.094285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Bucket/Bucket.fbx
+  artifactKey: Guid(f6de72f5d689055498c7aebc32a6f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Bucket/Bucket.fbx using Guid(f6de72f5d689055498c7aebc32a6f670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7858a6cd92c0b2c6f518d0b82700611a') in 0.143838 seconds 
+  Import took 0.147829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/ChickenBrown.fbx
+  artifactKey: Guid(7bad4e7c89be10a4083226108ffcab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/ChickenBrown.fbx using Guid(7bad4e7c89be10a4083226108ffcab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c18f539b71ed4e5d0c580c3478f6fa3') in 0.093228 seconds 
+  Import took 0.095814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Cels/Cels.fbx
+  artifactKey: Guid(1c21e8213d2d8264abdb357750d39b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Cels/Cels.fbx using Guid(1c21e8213d2d8264abdb357750d39b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad227d28a289e7bd79247b5a49872d6') in 0.034454 seconds 
+  Import took 0.037728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/VertexColorFarmAnimals/Prefabs/ChickenBrown.prefab
+  artifactKey: Guid(3b1e3e9155d404942bc65d9aa80120ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Prefabs/ChickenBrown.prefab using Guid(3b1e3e9155d404942bc65d9aa80120ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50270edb70894b8bde0df74cfd7a9703') in 0.065343 seconds 
+  Import took 0.069874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Source/CarPack.FBX
+  artifactKey: Guid(e9d96ffec57c82c4face56ee1063eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Source/CarPack.FBX using Guid(e9d96ffec57c82c4face56ee1063eb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd838ed753ecef7dad6a1d782cfab92b9') in 0.336712 seconds 
+  Import took 0.340294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Animals/cow_07.fbx
+  artifactKey: Guid(ac93d462733a3aa41a5dde1a5038ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals/cow_07.fbx using Guid(ac93d462733a3aa41a5dde1a5038ae77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d0b0a2fd07441116a77fff8cb61cf8') in 0.153423 seconds 
+  Import took 0.156469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/VertexColorFarmAnimals/Prefabs/CowBlW.prefab
+  artifactKey: Guid(9ec060093457ad84ca2733cb15c2c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Prefabs/CowBlW.prefab using Guid(9ec060093457ad84ca2733cb15c2c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad2695219654436c4be9625dc884f7d') in 0.062910 seconds 
+  Import took 0.066370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Car2.prefab
+  artifactKey: Guid(c636709dfd7fe1f438f063a9d74e44b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Car2.prefab using Guid(c636709dfd7fe1f438f063a9d74e44b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3672aa957928278b2783f760f726bf04') in 0.013848 seconds 
+  Import took 0.017024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab
+  artifactKey: Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/CarTiltControls.prefab using Guid(174090ae7f9eff84abe76f0ff062efac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad6670818d57934b82564d7dd0efbec') in 0.066333 seconds 
+  Import took 0.069812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Barrier Pack/Prefabs/crash_barrier.prefab
+  artifactKey: Guid(012e8cd5d38f8fa4fbb41fc57a5ce69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrier Pack/Prefabs/crash_barrier.prefab using Guid(012e8cd5d38f8fa4fbb41fc57a5ce69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ddc062f18d81bad16ee1958ef4a7be') in 0.078350 seconds 
+  Import took 0.081964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab
+  artifactKey: Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgePartAllLOD.prefab using Guid(04d1d82e2f5f1d4469b5a60ed8ab97ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea67352fe6074fd2b4cf8b67b8947ed') in 0.078084 seconds 
+  Import took 0.083007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/VertexColorFarmAnimals/Prefabs/DuckWhite.prefab
+  artifactKey: Guid(32026357c04e0e944835774b42e3c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Prefabs/DuckWhite.prefab using Guid(32026357c04e0e944835774b42e3c1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77b0323edb6800bd10bd4f2f2e1beb') in 0.069698 seconds 
+  Import took 0.074009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000726 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Car1.prefab
+  artifactKey: Guid(0c015dbff2c36e94089df72dedec0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Car1.prefab using Guid(0c015dbff2c36e94089df72dedec0b0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3caffae8a6f2440b8c8962c8a72023f9') in 0.023535 seconds 
+  Import took 0.027610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000613 seconds.
+  path: Assets/Barrier Pack/Models/crash_barrier.obj
+  artifactKey: Guid(c85c69add93128c4fab9bc56e56ef63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Barrier Pack/Models/crash_barrier.obj using Guid(c85c69add93128c4fab9bc56e56ef63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de84cc378de7fec07d56e20583ea9c46') in 0.055859 seconds 
+  Import took 0.059527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab
+  artifactKey: Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Bucket.prefab using Guid(cdff7da967252f94cad1dc1b01f99cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a0c4cdbeaa3c5b64a486c8b6709152') in 0.138989 seconds 
+  Import took 0.143694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Player/egg_06 1.fbx
+  artifactKey: Guid(0b6df8f9fc4016f4795a6afc2e192c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/egg_06 1.fbx using Guid(0b6df8f9fc4016f4795a6afc2e192c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c667b4d72e00e67336bf4ff216f151') in 0.111707 seconds 
+  Import took 0.114990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab
+  artifactKey: Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/DualTouchControls.prefab using Guid(2169821f0567671499a5c10104c69c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc609f7bfbc7c8c0b71e715e17672744') in 0.032701 seconds 
+  Import took 0.036131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000618 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 2.fbx
+  artifactKey: Guid(eca1804372c33cc4a8b7856bee80d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge Part/Bridge Part LOD 2.fbx using Guid(eca1804372c33cc4a8b7856bee80d1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f855fc23ec60c21c615a05c8f9e49b8d') in 0.144979 seconds 
+  Import took 0.148775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab
+  artifactKey: Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Explosion.prefab using Guid(031d08f52af1daa4f929b85221519426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d6ec08276cc4b661f3b5b1a4c12d3') in 0.077158 seconds 
+  Import took 0.080746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab
+  artifactKey: Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/ExplosionMobile.prefab using Guid(645413a00f7bd0242bbd6d0e5eb6f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f11509e2e5a748db1033608bcf6fef') in 0.069926 seconds 
+  Import took 0.073531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Animals/Chicken_brown_01.fbx
+  artifactKey: Guid(70d852759c4b77c42a4ed853ef168c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals/Chicken_brown_01.fbx using Guid(70d852759c4b77c42a4ed853ef168c80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287bbbce59a8af0ad7fa7210761658dd') in 0.104418 seconds 
+  Import took 0.107344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Farmer/farmer_12.fbx
+  artifactKey: Guid(439287c155681104ca42c988f2297232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_12.fbx using Guid(439287c155681104ca42c988f2297232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083b985b3e8e3826d1b3d56f91de264') in 0.141843 seconds 
+  Import took 0.144966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Farmer/farmer_12.prefab
+  artifactKey: Guid(2b6bbd8517627a749b7e750b1270e91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_12.prefab using Guid(2b6bbd8517627a749b7e750b1270e91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c081aae6a0e2db5f9a8cc2c118f46e') in 0.069343 seconds 
+  Import took 0.073259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Farmer/farmer_black_03.fbx
+  artifactKey: Guid(b343165721a47874dbacb1c595bf0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_black_03.fbx using Guid(b343165721a47874dbacb1c595bf0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16b9937803dd6280adb723b9a0a605a') in 0.123743 seconds 
+  Import took 0.127059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Farmer/farmer_black_03.prefab
+  artifactKey: Guid(7c90072baf511494dbfdd94ed56c20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_black_03.prefab using Guid(7c90072baf511494dbfdd94ed56c20d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9bfecad801a54b0f500add5c3ff504') in 0.068052 seconds 
+  Import took 0.071196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Farmer/farmer_black_03 1.fbx
+  artifactKey: Guid(f28b85d13c9ca624bbd1aae1cfc91465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_black_03 1.fbx using Guid(f28b85d13c9ca624bbd1aae1cfc91465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e3a597b143772e22fe13e46517196b') in 0.152016 seconds 
+  Import took 0.155533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/DuckWhite.fbx
+  artifactKey: Guid(82d0b33fd2ad44744aa557711150e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/DuckWhite.fbx using Guid(82d0b33fd2ad44744aa557711150e99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d25b176f0e55e2493f2d4cbe9e39d0') in 0.069501 seconds 
+  Import took 0.072585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab
+  artifactKey: Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence1.prefab using Guid(ddf4f45c150785f4685630ead1bdbe25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3beba16bac83d5a62a244013c286f463') in 0.085973 seconds 
+  Import took 0.089853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Farmer/farmer_12 1.fbx
+  artifactKey: Guid(3aa0a1a0af4408c498cda81023e606be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Farmer/farmer_12 1.fbx using Guid(3aa0a1a0af4408c498cda81023e606be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc721e7d163756e20b7f834a39e0dfb') in 0.143387 seconds 
+  Import took 0.146807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab
+  artifactKey: Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence3.prefab using Guid(3ff55326860ccdc4db0504550148e994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b6eab2e685bd91a345191bc09faf90') in 0.047422 seconds 
+  Import took 0.050618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab
+  artifactKey: Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence2.prefab using Guid(135ba6f8587f905418f573a1b2380169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54df8c5849cfc19266c4ea44e8e1d0d') in 0.104401 seconds 
+  Import took 0.107824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Fences/Fences.prefab
+  artifactKey: Guid(750fa793b9a676b4d88e198814653eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Fences.prefab using Guid(750fa793b9a676b4d88e198814653eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc64d8ca077414470dd9c11b64ebd8d') in 0.072202 seconds 
+  Import took 0.076414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Fences/Fences2.prefab
+  artifactKey: Guid(88dbeafb34ce2aa439d86e1327c841d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Fences2.prefab using Guid(88dbeafb34ce2aa439d86e1327c841d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4449e3dba38cb0890c4d12ac3e2205c8') in 0.064838 seconds 
+  Import took 0.068967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 1/Fence 1.fbx
+  artifactKey: Guid(4329a34f44759844484a2efd0b5b6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 1/Fence 1.fbx using Guid(4329a34f44759844484a2efd0b5b6106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5572b922376f14e1b51249dbf17d9af2') in 0.079416 seconds 
+  Import took 0.083048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Fences/Fences5.prefab
+  artifactKey: Guid(bc3c6f316e1320648a057d383b437afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Fences5.prefab using Guid(bc3c6f316e1320648a057d383b437afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1466a8fb037017b2fee0571513b9c715') in 0.066565 seconds 
+  Import took 0.070729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Fences/Fences3.prefab
+  artifactKey: Guid(c097bedd5f0f4f345995d2a0d92bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Fences3.prefab using Guid(c097bedd5f0f4f345995d2a0d92bfedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0bf4866b9a1942c28045f031aafb77') in 0.030904 seconds 
+  Import took 0.035529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab
+  artifactKey: Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireComplex.prefab using Guid(bf495eacf58e31146ab012aa89ac68da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95918618b23e80762f5f4093c3bd7e99') in 0.118299 seconds 
+  Import took 0.122872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 4/Fence 4.fbx
+  artifactKey: Guid(2b5ef699c18eaa948a7df05f3ef1d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 4/Fence 4.fbx using Guid(2b5ef699c18eaa948a7df05f3ef1d875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576f347a42dbcaaeeafa34dc9beae495') in 0.074053 seconds 
+  Import took 0.077426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000816 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab
+  artifactKey: Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence4.prefab using Guid(361e3d5cdb2eadb43a7e7bacd9accd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461d1d921102835f89609cd9f045729') in 0.031042 seconds 
+  Import took 0.034780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab
+  artifactKey: Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FireMobile.prefab using Guid(b99a0a5998b2736429fd2a2fd1d01c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c35b2c1d2ab2e34bcde441ea44d72b') in 0.051693 seconds 
+  Import took 0.056682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 1.fbx
+  artifactKey: Guid(33ecff6e16ce3fc41ba433791852845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 1.fbx using Guid(33ecff6e16ce3fc41ba433791852845a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48942ff84238dd67ae861bcc6009f589') in 0.290567 seconds 
+  Import took 0.296210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab
+  artifactKey: Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/FullBridge.prefab using Guid(a1df4b9f785e074449e4a29f24816a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28d8b96b897ea6a0eede4a52db45ca6') in 0.084128 seconds 
+  Import took 0.090279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 3.fbx
+  artifactKey: Guid(5352a73505a82494bac1f8ff98debe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 3.fbx using Guid(5352a73505a82494bac1f8ff98debe04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74b3b364babf03a9796d3b4d315453d') in 0.107470 seconds 
+  Import took 0.110958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab
+  artifactKey: Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Utility/Prefabs/FramerateCounter.prefab using Guid(81154777d5417884981849c5243f6c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '167712381b0cf3fe6de51b1d78ebf458') in 0.013009 seconds 
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000538 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab
+  artifactKey: Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/FlareMobile.prefab using Guid(ccbcfc705a39717429590a9f247ec30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2b81a040cca3e4d0bb1163633041fa') in 0.049188 seconds 
+  Import took 0.052784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab
+  artifactKey: Guid(49a0e923d39ec3c4c8bb97699e2f2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Prefabs/FreeLookCameraRig.prefab using Guid(49a0e923d39ec3c4c8bb97699e2f2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52987fec803676fa778b0ba0bf88d0d') in 0.013451 seconds 
+  Import took 0.016705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 2.fbx
+  artifactKey: Guid(add06ee81060c1545ade7dcb46bd187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Bridge first part/First Part Bridge LOD 2.fbx using Guid(add06ee81060c1545ade7dcb46bd187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fa64f1d353959147d773b6cf4611c0') in 0.189081 seconds 
+  Import took 0.194427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Fork/Fork.fbx
+  artifactKey: Guid(b96b7599d58898743b0432c8a4dc91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Fork/Fork.fbx using Guid(b96b7599d58898743b0432c8a4dc91bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5585ae51f80fbbcad88834d38bdf9a') in 0.106306 seconds 
+  Import took 0.110986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000533 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab
+  artifactKey: Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GlassSpray.prefab using Guid(318a7a800b8ccc14ea98ef0a7e067199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cb31f9d238b0f07a46b1b41b50317e') in 0.089903 seconds 
+  Import took 0.093262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Gripper/Gripper.fbx
+  artifactKey: Guid(099fbf7c759241c40a4008bec613c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Gripper/Gripper.fbx using Guid(099fbf7c759241c40a4008bec613c718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de9511ba8d2fbea34ac00ace648d708') in 0.084880 seconds 
+  Import took 0.087404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab
+  artifactKey: Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/GasCan.prefab using Guid(8b780173080be1e4e86f28dd1ad13d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ce53b7c2f67825a445ebaba3dcf9e8') in 0.137692 seconds 
+  Import took 0.141978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab
+  artifactKey: Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/HalfBridge.prefab using Guid(903b9a0b57329fd41ad9cb0d383ab6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2487b48db79e8146dd95838f989d0b') in 0.105940 seconds 
+  Import took 0.114027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab
+  artifactKey: Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Gripper.prefab using Guid(070cc6e0f08b39248b99298eabf38f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ab7176fa72ee11e2b3cd7adf1f7558') in 0.133948 seconds 
+  Import took 0.137875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Hammer 2/Hammer 2.fbx
+  artifactKey: Guid(87f1b02d30c5bb54aa7f1f8f5c4657a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Hammer 2/Hammer 2.fbx using Guid(87f1b02d30c5bb54aa7f1f8f5c4657a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e138afacccb6c28aa2697c8e299cde') in 0.067996 seconds 
+  Import took 0.070850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab
+  artifactKey: Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Prefabs/HandheldCamera.prefab using Guid(a5be31db3f71b0642af74fe491b4bc89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b0fee0aaff3bfc00dea510496fb6fe2') in 0.011688 seconds 
+  Import took 0.015082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab
+  artifactKey: Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer2.prefab using Guid(7c21bc16125c0394f816b22450955d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395b5c7bd5367d9a7c368ad4784dc204') in 0.072076 seconds 
+  Import took 0.076297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000495 seconds.
+  path: Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab
+  artifactKey: Guid(46b12845355544642bf8f9d0cb373af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab using Guid(46b12845355544642bf8f9d0cb373af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f6fb4d8a01b9cd0e39df3ed04b83b0') in 0.009324 seconds 
+  Import took 0.012403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Fences/Guardrails.prefab
+  artifactKey: Guid(eda6baad696e5ec4e8f97fdf3b2496a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Guardrails.prefab using Guid(eda6baad696e5ec4e8f97fdf3b2496a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a9e8ca9b2d3e156e5c3cd92e2f382c') in 0.034104 seconds 
+  Import took 0.037984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab
+  artifactKey: Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Flare.prefab using Guid(0438351a6e6422d43a09930e9be00ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928d982e2f60df2ab225fb876d4ddea5') in 0.022410 seconds 
+  Import took 0.025587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab
+  artifactKey: Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/HoseMobile.prefab using Guid(4dbf077105ba797428d118320f2a10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5c3f07cdf0c4ac5a256fbb169edfb7f') in 0.043169 seconds 
+  Import took 0.046871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 5/Fence 5.fbx
+  artifactKey: Guid(4808050dc9321d64b908bf773a64da17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 5/Fence 5.fbx using Guid(4808050dc9321d64b908bf773a64da17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56721daa0c5e265e6aec002994578c8b') in 0.073834 seconds 
+  Import took 0.078107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000600 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/CowBlW.fbx
+  artifactKey: Guid(33bee4529afa2d740bfcc71a4c9f1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/CowBlW.fbx using Guid(33bee4529afa2d740bfcc71a4c9f1f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc8d9aa9a453360aefc50e5412e918c') in 0.045150 seconds 
+  Import took 0.048928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000775 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx
+  artifactKey: Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdle.fbx using Guid(dffa50cfe77e0434bbfa71245b3dd529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7280c61339901d91347274e61fd85315') in 0.025030 seconds 
+  Import took 0.028586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab
+  artifactKey: Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStorm.prefab using Guid(1f7aa4d40edff6e48b549003cad031e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df837d644e7035e47a905d5eb4d5b66') in 0.071912 seconds 
+  Import took 0.077183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx
+  artifactKey: Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidJumpAndFall.fbx using Guid(51dd2e4c869794f75a0df7d54b210214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211720f9be37c03207d0ec66f5f5833e') in 0.020995 seconds 
+  Import took 0.025255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx
+  artifactKey: Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRun.fbx using Guid(1cb8ed3cbba15f0479fbae54e0a963df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a917f4776418e8760046ab68bdb11e') in 0.014061 seconds 
+  Import took 0.017559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000596 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab
+  artifactKey: Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Fireworks.prefab using Guid(180149b1a35449044a27b451e816d2de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a0faf26aae069239cc80dcb4dbc23c') in 0.020813 seconds 
+  Import took 0.024934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Fences/Fences6.prefab
+  artifactKey: Guid(4998a30ab48e209478c97171dff5be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fences/Fences6.prefab using Guid(4998a30ab48e209478c97171dff5be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf11f2f84d96c610253a6cd4b880067') in 0.028763 seconds 
+  Import took 0.033243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx
+  artifactKey: Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidMidAir.fbx using Guid(f03e10c73f30b4ab4aa8ea8f1cc16d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334889a4b095a130c0c645c0b0547fe2') in 0.016150 seconds 
+  Import took 0.021088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+  artifactKey: Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx using Guid(b235179bd2a63d1468dd430670338c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e933798cddeb4ea2a17df2073d12cef') in 0.128361 seconds 
+  Import took 0.133395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx
+  artifactKey: Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidStandTurn.fbx using Guid(6fb3851da6a6f5948ab6892bee8ba920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78288f54380c7e564b01be24241906e') in 0.019902 seconds 
+  Import took 0.023281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx
+  artifactKey: Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurnSharp.fbx using Guid(f2bed5dc5afacff44a00de8daae9703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aab35d2329dc8ff423edca3f98cbf2a') in 0.014372 seconds 
+  Import took 0.017538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000628 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx
+  artifactKey: Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalk.fbx using Guid(b1a5e04ae51004842aba06704a6c2903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55b4dc8d591d2f3ce2ff8cf15ed9831') in 0.015133 seconds 
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 3/Fence 3.fbx
+  artifactKey: Guid(8b85338f6252df444bcfab6df0b43de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 3/Fence 3.fbx using Guid(8b85338f6252df444bcfab6df0b43de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46862ddb6a5c21adfb115c7007114ae1') in 0.078322 seconds 
+  Import took 0.081042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000564 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm
+  artifactKey: Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile.spm using Guid(6aab193b7693b5e4c9741f1917d2987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d476d2a5226c49064f269966b31be9') in 0.143150 seconds 
+  Import took 0.146435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab
+  artifactKey: Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fence5.prefab using Guid(43a17864c509699478646582a6a377c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90832b550071bb7b79d40fd1322e0670') in 0.069290 seconds 
+  Import took 0.073371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Little Box 1/Little box 1.fbx
+  artifactKey: Guid(2a46e21a2052a744bac73d3242acc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Little Box 1/Little box 1.fbx using Guid(2a46e21a2052a744bac73d3242acc940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c726bbde49338e4e80430243db396ce1') in 0.079650 seconds 
+  Import took 0.084646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx
+  artifactKey: Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidIdleJumpUp.fbx using Guid(0d9d26e2162aa4d11ab075b34c029673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfc836820d836e5ada9a3863390a16f') in 0.016373 seconds 
+  Import took 0.020334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab
+  artifactKey: Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox1 1.prefab using Guid(68ee76a8899803640b86f31376021aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829effbfcc4fd35a592ca488f5bc30e1') in 0.075344 seconds 
+  Import took 0.078992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000537 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab
+  artifactKey: Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/LittleBox2.prefab using Guid(b0c9e37732491f14ebf148fca8134993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad589b0693c4770c6f090974467b6127') in 0.076863 seconds 
+  Import took 0.080697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000554 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 2/Fence 2.fbx
+  artifactKey: Guid(cf14853f411cb604a8edeff7c38ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Fences/Fence 2/Fence 2.fbx using Guid(cf14853f411cb604a8edeff7c38ec97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137aeecfb82b4b999e6f981ecb7bca72') in 0.080184 seconds 
+  Import took 0.083884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx
+  artifactKey: Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurn.fbx using Guid(1c52c953c83c2254a9fa72d50250f028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecec0dbcb2fc8519d97aca82d4b6226') in 0.018757 seconds 
+  Import took 0.022858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Little Box 2/Little box 2.fbx
+  artifactKey: Guid(2181458f3d34adb4eb82ce96e21f4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Little Box 2/Little box 2.fbx using Guid(2181458f3d34adb4eb82ce96e21f4d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587f999b62d3b8d118c94ed341632b8f') in 0.055883 seconds 
+  Import took 0.059635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx
+  artifactKey: Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidCrouch.fbx using Guid(d89ea37480b6d75458aa38843e9688dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f870f3846f8590f6a88c4190ee8329f') in 0.020586 seconds 
+  Import took 0.024387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab
+  artifactKey: Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Prefabs/MultipurposeCameraRig.prefab using Guid(baec086904791744185aaa07a6cf55c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671c49796262581280eb2b1df93a8f2e') in 0.016159 seconds 
+  Import took 0.019635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab
+  artifactKey: Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileSingleStickControl.prefab using Guid(9529ecc3d479da5499993355e6c2cb4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a14283d790cff8dc3377ec28226718') in 0.020695 seconds 
+  Import took 0.024185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab
+  artifactKey: Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileTiltControlRig.prefab using Guid(999388b68bb99b44099461bfbed94358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6da67d874ec187b3cdb4685ddcc41286') in 0.009896 seconds 
+  Import took 0.013385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 2/Object 2.fbx
+  artifactKey: Guid(174b982747e2abd4c994c1c1e3a4f3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 2/Object 2.fbx using Guid(174b982747e2abd4c994c1c1e3a4f3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8016f608ddc2c2ae7df4c8ebaed76062') in 0.106558 seconds 
+  Import took 0.111340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 4/Object 4.fbx
+  artifactKey: Guid(a5c4b370f750f5146847acec36075df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 4/Object 4.fbx using Guid(a5c4b370f750f5146847acec36075df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553003165ed3c631a744eeb733e2477b') in 0.077054 seconds 
+  Import took 0.080636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000540 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 3/Object 3.fbx
+  artifactKey: Guid(af2adddd1877e4b409b5d3e0c5896079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Object 3/Object 3.fbx using Guid(af2adddd1877e4b409b5d3e0c5896079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac523cbd0945bd564de6bf545031f0ed') in 0.079914 seconds 
+  Import took 0.084095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm
+  artifactKey: Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop.spm using Guid(d027af1092f6b434090f040565e7e656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2d98b2a8224ed6cdcff3a0f1305d47') in 0.181457 seconds 
+  Import took 0.184271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/VertexColorFarmAnimals/Prefabs/Pig.prefab
+  artifactKey: Guid(de6abd774f85e18408346a3233418242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Prefabs/Pig.prefab using Guid(de6abd774f85e18408346a3233418242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6157a45a83f0a49825e0fd56895898') in 0.068269 seconds 
+  Import took 0.071387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX
+  artifactKey: Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Models/OceanPlane.FBX using Guid(681e41ee1260343b395ca58745c94870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff512694f39cdee87245359415c39ee') in 0.194667 seconds 
+  Import took 0.197801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab
+  artifactKey: Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Saw.prefab using Guid(c245124867324c340a935f7058728606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbff4818f763552e065e22d5553feb8') in 0.132811 seconds 
+  Import took 0.135746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab
+  artifactKey: Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Rope.prefab using Guid(4f3403a0a166e444194da6bcb1f3cb4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26d4b6f7b0cc8a172e90e43bd9c5423') in 0.071563 seconds 
+  Import took 0.074458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab
+  artifactKey: Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScissorsForGrass.prefab using Guid(723f84f13904f514ab8f3ca3d5b57c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeef8ae884c9479bd0137b2652db5ea5') in 0.150101 seconds 
+  Import took 0.153358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver3/Screwdriver 3.fbx
+  artifactKey: Guid(ee5c57aefd0c31245bd476ab80b938cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver3/Screwdriver 3.fbx using Guid(ee5c57aefd0c31245bd476ab80b938cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d23f3586741b0119bc1e6e689cc02c') in 0.070934 seconds 
+  Import took 0.073712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab
+  artifactKey: Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 1.prefab using Guid(9b25f1703b9da8d4eb28fd5fe8179830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0014073ecb43fb6af05706419143f48b') in 0.077032 seconds 
+  Import took 0.080048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Scissors for Grass.fbx
+  artifactKey: Guid(74c4d2f25effb1341bf6058acf008695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Scissors for Grass/Scissors for Grass.fbx using Guid(74c4d2f25effb1341bf6058acf008695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c328247cba47bfe75f28e80cf1138ec7') in 0.125695 seconds 
+  Import took 0.128819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000458 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver/Screwdriver.fbx
+  artifactKey: Guid(b9ff062c33702b44799e59dfcef07dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver/Screwdriver.fbx using Guid(b9ff062c33702b44799e59dfcef07dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f821537f7385f690d87798257f4c7b5c') in 0.071123 seconds 
+  Import took 0.074679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab
+  artifactKey: Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 3.prefab using Guid(26f0053b6cf04ea44af763bd2e184dfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1f05a4fa9714a8cbc5692adbfe7f2a') in 0.074394 seconds 
+  Import took 0.078975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab
+  artifactKey: Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/MiddleBridgePartAllLOD.prefab using Guid(e550825b76c9f4a4cafd2af6ba627a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd1c44d9b257534e36492386db85a5f') in 0.069827 seconds 
+  Import took 0.074644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Player/Player.prefab
+  artifactKey: Guid(96a532401b25f4a46aa829fce4771262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/Player.prefab using Guid(96a532401b25f4a46aa829fce4771262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e1acff282a9ae1577c08fa87e294be') in 0.075509 seconds 
+  Import took 0.081293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab
+  artifactKey: Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsStacked.prefab using Guid(aef445cdc1ce6fc4f93a867a9d9109ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00443ca87f99a84a3ca73b2798a1c0c') in 0.081433 seconds 
+  Import took 0.087012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000470 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab
+  artifactKey: Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/PotsUpsideDown.prefab using Guid(6e0ca3cc89322054fb5ae001a9081329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2791aefe65a81f92597f827224f6e3') in 0.071500 seconds 
+  Import took 0.075452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab
+  artifactKey: Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 2.prefab using Guid(e6ec50b9e4978294bada9a364235c3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82cc786f3cc4f42b7306f7a767cc642b') in 0.088762 seconds 
+  Import took 0.092954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 1.fbx
+  artifactKey: Guid(fe7163aa82070fc4b87bb10c83a651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 1.fbx using Guid(fe7163aa82070fc4b87bb10c83a651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12cb3ac71f04850de695e40edc8db34') in 0.123476 seconds 
+  Import took 0.127097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/TinyBox/Object 5.fbx
+  artifactKey: Guid(a0bfd6b74e6ef6d4fb231ed64abc6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/TinyBox/Object 5.fbx using Guid(a0bfd6b74e6ef6d4fb231ed64abc6bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d2b9f17475395dea2db79fdc6eca75') in 0.078677 seconds 
+  Import took 0.082436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx
+  artifactKey: Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidWalkTurnSharp.fbx using Guid(bb141fc9a700c9c4ca7e6dadb8acf24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7736332d6338f1f1b8cf7af68376abba') in 0.017355 seconds 
+  Import took 0.022144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000558 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab
+  artifactKey: Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Prefabs/MobileAircraftControls.prefab using Guid(3369231b1ed7ad34e84d9240a571db81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589d83d9960b179c9fec1098842060be') in 0.045507 seconds 
+  Import took 0.049335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab
+  artifactKey: Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Hammer.prefab using Guid(8648ac77aa011604c9b885644314c5a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4be6cf5e9c0d1448d027b41032c9f8') in 0.136543 seconds 
+  Import took 0.140341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 1.fbx
+  artifactKey: Guid(5588458b5055e784eab29ea92c7465ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 1.fbx using Guid(5588458b5055e784eab29ea92c7465ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72984ad28173b4e66261999b328a770e') in 0.513193 seconds 
+  Import took 0.526308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver 4/Screwdriver 4.fbx
+  artifactKey: Guid(a1824ea5910beb14eac30213cc1cb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver 4/Screwdriver 4.fbx using Guid(a1824ea5910beb14eac30213cc1cb9e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f542d497878528954a486e033abf880') in 0.101512 seconds 
+  Import took 0.104794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000482 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab
+  artifactKey: Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ScrewDriver 4.prefab using Guid(14d7a570754dc3240ba1b0a465ba37e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bedf721cabab80bfcac961464c0c20f') in 0.080510 seconds 
+  Import took 0.083579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx
+  artifactKey: Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Animation/HumanoidRunTurn.fbx using Guid(1062212255550964e974f3ffb3cbaae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe9c61eb3adffff3a5d3ef819dd748b') in 0.014670 seconds 
+  Import took 0.017727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver2/Screwdriver 2.fbx
+  artifactKey: Guid(28995408dcc01bc42b33e0035735c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Screwdriver2/Screwdriver 2.fbx using Guid(28995408dcc01bc42b33e0035735c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca24015d2fee91948c3ed1b4fa3219f4') in 0.068880 seconds 
+  Import took 0.071877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Glass Sprey/Glass Spray.fbx
+  artifactKey: Guid(55eb4f351871c1f49b0969a468fa2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Glass Sprey/Glass Spray.fbx using Guid(55eb4f351871c1f49b0969a468fa2ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9fc630d1b7eabfc7e2c9cc13bc1fdb') in 0.029785 seconds 
+  Import took 0.033335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000598 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/Pig.fbx
+  artifactKey: Guid(0b54733d5329ad34db9d1e5fe04739e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/Pig.fbx using Guid(0b54733d5329ad34db9d1e5fe04739e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c7b16f88e05c73df39067dc03a4b1e') in 0.053657 seconds 
+  Import took 0.056576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Animals/pig_01.fbx
+  artifactKey: Guid(4f1c8067d5fac7346adced9134120239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals/pig_01.fbx using Guid(4f1c8067d5fac7346adced9134120239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b58f630ab695c6d493d201f8e60ec7b') in 0.119025 seconds 
+  Import took 0.122129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Hammer/Hammer.fbx
+  artifactKey: Guid(203ce967b875b9f4e92aff95aea24423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Hammer/Hammer.fbx using Guid(203ce967b875b9f4e92aff95aea24423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e279972c1d079710102292b846221a68') in 0.096737 seconds 
+  Import took 0.100952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Rope/Rope.fbx
+  artifactKey: Guid(4d166d6e1e64c1647a01175068b9e314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Rope/Rope.fbx using Guid(4d166d6e1e64c1647a01175068b9e314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584604bcab3a71e5d90b10982aeb4223') in 0.045414 seconds 
+  Import took 0.048137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  artifactKey: Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx using Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a31f9f738ca2a08c37fe1a3a063659') in 0.032266 seconds 
+  Import took 0.036365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab
+  artifactKey: Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Cameras/Prefabs/CctvCamera.prefab using Guid(851d11542d51c464e89acf6875599172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e2cb8d00784d12145a48b6155d7de4') in 0.014170 seconds 
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 3.fbx
+  artifactKey: Guid(00b6a168c14fc7047b693d9a351e3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 3.fbx using Guid(00b6a168c14fc7047b693d9a351e3e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d38bbfda304e34c8fec6e461438ef3') in 0.139051 seconds 
+  Import took 0.142327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab
+  artifactKey: Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Fork.prefab using Guid(a0c500ad6d9391749b34c0f9f753987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1581b0346c58e6cdbc5ee315fd045432') in 0.185761 seconds 
+  Import took 0.191292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 3.fbx
+  artifactKey: Guid(f19b5ce2a0878dd46a159ce0b349d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 3.fbx using Guid(f19b5ce2a0878dd46a159ce0b349d75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ed3e7cc5ca0d52592e0515c4024cba') in 0.146037 seconds 
+  Import took 0.152746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab
+  artifactKey: Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedAllLod.prefab using Guid(fb05bdaf6898faa4fb17c88de74b56c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e1b3d0fe7f87773c99543fb18f6d9e') in 0.244738 seconds 
+  Import took 0.260344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shovel/Shovel.fbx
+  artifactKey: Guid(ceeb24f3d2de4994eae8ac75e033f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shovel/Shovel.fbx using Guid(ceeb24f3d2de4994eae8ac75e033f34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb97a5f355d3b84be34409997e37a9d') in 0.123193 seconds 
+  Import took 0.125685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/VertexColorFarmAnimals/Prefabs/SheepWhite.prefab
+  artifactKey: Guid(e82139b3bae6212439ea1e85ad29678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Prefabs/SheepWhite.prefab using Guid(e82139b3bae6212439ea1e85ad29678b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c6ec9d5a9f86f833ae8004b9660385') in 0.073268 seconds 
+  Import took 0.076421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/VertexColorFarmAnimals/Models/SheepWhite.fbx
+  artifactKey: Guid(5d8504897ce36db4ea5e50f018657780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VertexColorFarmAnimals/Models/SheepWhite.fbx using Guid(5d8504897ce36db4ea5e50f018657780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26bd4752842f8c3631862d4452be961') in 0.023998 seconds 
+  Import took 0.027470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab
+  artifactKey: Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/ShedLOD1.prefab using Guid(b518e4023293f6747bb776b6384a8f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa35497f56dd3de05b45df91c04f831e') in 0.182079 seconds 
+  Import took 0.201137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Animals/SheepWhite_01.fbx
+  artifactKey: Guid(ef1fd09af106640448faeccb4e4aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animals/SheepWhite_01.fbx using Guid(ef1fd09af106640448faeccb4e4aaa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d0cddb1f21dfd4efaf9ce974bb667e') in 0.128865 seconds 
+  Import took 0.133703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab
+  artifactKey: Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Shovel.prefab using Guid(bb8c330a191619443833d09c49ac8527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86e77cde5010bbcc95e5c819090a252') in 0.191912 seconds 
+  Import took 0.197594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab
+  artifactKey: Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray2.prefab using Guid(a499bfc27b7db994a9cd20081dfc283d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7754a619301c629d17d00f92508a502e') in 0.072777 seconds 
+  Import took 0.076144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab
+  artifactKey: Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray1.prefab using Guid(d102bac42b060cd43ab260ae556f2f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd92d7d53e982a5f8e4efc3a4b209fd') in 0.078275 seconds 
+  Import took 0.081920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Sickle/Sickle.fbx
+  artifactKey: Guid(88858aad1fcd9dc4cb840de3c9d5f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Sickle/Sickle.fbx using Guid(88858aad1fcd9dc4cb840de3c9d5f809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9d59f8af1190bd76af057fe0cda9fd0') in 0.089480 seconds 
+  Import took 0.093568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab
+  artifactKey: Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Smoke.prefab using Guid(921a3ff88856fe04ebc86b196fd8cc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772738fe0b5f3e22d296fbb9afecaac6') in 0.030085 seconds 
+  Import took 0.033134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab
+  artifactKey: Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Sickle.prefab using Guid(664e4fe5307f53846a375f35fd65f35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a695d0b171e446cf37093e67e0654919') in 0.130700 seconds 
+  Import took 0.134992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab
+  artifactKey: Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/Spray3.prefab using Guid(dd362038514b13a4c9b03c803507f71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0edc0742071c27b30872b398b4c6e877') in 0.079958 seconds 
+  Import took 0.082813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab
+  artifactKey: Guid(b6fecef6c92b67147b638a07ef91195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/SteamMobile.prefab using Guid(b6fecef6c92b67147b638a07ef91195b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cbec678ea980ec5f108044f6597d3d') in 0.039657 seconds 
+  Import took 0.044076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab
+  artifactKey: Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Steam.prefab using Guid(32aafb358d61bd14b9b27ed0871fe43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbc77b87c0e1bdc3083d16d7ed55e19') in 0.037066 seconds 
+  Import took 0.041151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/MenuSounds/SoundObject/StartButtonAudio.prefab
+  artifactKey: Guid(a1bc536792d09924e811997bad10f187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MenuSounds/SoundObject/StartButtonAudio.prefab using Guid(a1bc536792d09924e811997bad10f187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f8de3bda1a30557c254a44edf53e74') in 0.014654 seconds 
+  Import took 0.018090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000779 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx
+  artifactKey: Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Shed/Shed LOD 2.fbx using Guid(986afcd52b9de4640b1f5fddc0497076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726de8cedf00a0f8213de839d5dee7dd') in 0.253295 seconds 
+  Import took 0.264273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/TinCan/Object 1.fbx
+  artifactKey: Guid(f38e4468bcf086843bcecd7f3903eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/TinCan/Object 1.fbx using Guid(f38e4468bcf086843bcecd7f3903eac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63729eab7250861527b1840a2b7e7c09') in 0.091822 seconds 
+  Import took 0.095150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Police Car.prefab
+  artifactKey: Guid(38578129bfa01a24e8383820c8fb1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Police Car.prefab using Guid(38578129bfa01a24e8383820c8fb1613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50d7fa555d0f51fe01b16953538a08a') in 0.068057 seconds 
+  Import took 0.071286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab
+  artifactKey: Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/Hose.prefab using Guid(fae5d333f43a55744ab0c44fecefdcae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f606d8d91b68b1d3f0564d19eb985727') in 0.014694 seconds 
+  Import took 0.018379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab
+  artifactKey: Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Prefabs/DustStormMobile.prefab using Guid(ed1c797ec3736704db03a0d64d010e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342d1d74ebcaff962ea5433386749d6a') in 0.049972 seconds 
+  Import took 0.053198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Saw/Saw.fbx
+  artifactKey: Guid(a676fc20de7bd56459b4c04c18d01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/Saw/Saw.fbx using Guid(a676fc20de7bd56459b4c04c18d01b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0cfffd8612a08f7da1466dad84061b') in 0.087680 seconds 
+  Import took 0.091469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/Player/egg_06.fbx
+  artifactKey: Guid(236a5f9fb822abc4182150a4c82b8a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/egg_06.fbx using Guid(236a5f9fb822abc4182150a4c82b8a0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27512a5df0bbcfb962812bb5f8de77b9') in 0.118961 seconds 
+  Import took 0.123049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Suv.prefab
+  artifactKey: Guid(49ddca32621bf7d4cb7d2351bdfae676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Suv.prefab using Guid(49ddca32621bf7d4cb7d2351bdfae676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62da3715641009d8dc90b6122eb24b9') in 0.063628 seconds 
+  Import took 0.067265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Taxi.prefab
+  artifactKey: Guid(905302bafe1c35d41a358c50fbbaf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Taxi.prefab using Guid(905302bafe1c35d41a358c50fbbaf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5626b0f41bede8a5222c804ce22f6f69') in 0.023357 seconds 
+  Import took 0.026567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab
+  artifactKey: Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinCan.prefab using Guid(796e2d04825afee4086cad4a9e3fac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aae7c658fcbf356f020c9f0e62922a3') in 0.072949 seconds 
+  Import took 0.076541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/Taxi B.prefab
+  artifactKey: Guid(870974ec79eb7ea4582831b4a98b968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/Taxi B.prefab using Guid(870974ec79eb7ea4582831b4a98b968e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '867fd36d2c90c916974a28ad20f29535') in 0.053472 seconds 
+  Import took 0.057181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab
+  artifactKey: Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Prefabs/ThirdPersonController.prefab using Guid(7737647c22c1fc64a88d5cd030c352ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf76bcfc78f32ed54137aa6c17994ca') in 0.126016 seconds 
+  Import took 0.132107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab
+  artifactKey: Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/TinyBox.prefab using Guid(a9895e7cf5278f44eb578d759c3a2abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006b4194bbbeba386953f76c77739533') in 0.083160 seconds 
+  Import took 0.086277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab
+  artifactKey: Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/Prefabs/BridgeFirstPartAllLOD.prefab using Guid(3b6e2b17278f80e40887b0aff9ecccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c047d0a9434d82aa3b70f77c63b3baf') in 0.115305 seconds 
+  Import took 0.121216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm
+  artifactKey: Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop.spm using Guid(469edab27ab6d004d84af2c4a851bd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974bf7db2ac3b23c3cb00770ffc05eb7') in 0.185362 seconds 
+  Import took 0.188476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 2.fbx
+  artifactKey: Guid(3f70f13a3e259324d94eaecb76298755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheGamingPeople/Shed Bridge Tools and Fences/FreshModels/_Bridge/_Last Bridge Part/Last Bridge Part LOD 2.fbx using Guid(3f70f13a3e259324d94eaecb76298755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005cb17aa600f7305c5c212eb996b708') in 0.138409 seconds 
+  Import took 0.141502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Urban American Assets/Props/Vehicles/City Bus.prefab
+  artifactKey: Guid(62b8dae48bd74e44c9d44fbb59e6c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Urban American Assets/Props/Vehicles/City Bus.prefab using Guid(62b8dae48bd74e44c9d44fbb59e6c12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c311de7858ec1c32a79e0ea0f1aa7b0') in 0.047215 seconds 
+  Import took 0.050773 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016154 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Domain Reload Profiling:
+	ReloadAssembly (918ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (774ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2045.
+Total: 3.058300 ms (FindLiveObjects: 0.141800 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.539200 ms  DeleteObjects: 0.332500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.661136 seconds.
+  path: Assets/Scripts/StartAnnouncementScript.cs
+  artifactKey: Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StartAnnouncementScript.cs using Guid(6ac30347e291abe4ab8dabc6ceff493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8123f70384fd9620540d8f592fb60ce') in 0.004495 seconds 
+  Import took 0.007229 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004289 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.947 seconds
+Domain Reload Profiling:
+	ReloadAssembly (947ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (801ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (288ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.1 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 3.067800 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.035500 ms MarkObjects: 2.560600 ms  DeleteObjects: 0.337300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002911 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.913 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2049.
+Total: 3.023700 ms (FindLiveObjects: 0.142800 ms CreateObjectMapping: 0.027200 ms MarkObjects: 2.464100 ms  DeleteObjects: 0.388300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Domain Reload Profiling:
+	ReloadAssembly (779ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2051.
+Total: 3.180400 ms (FindLiveObjects: 0.164800 ms CreateObjectMapping: 0.025900 ms MarkObjects: 2.558300 ms  DeleteObjects: 0.430100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003236 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.806 seconds
+Domain Reload Profiling:
+	ReloadAssembly (807ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (648ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (2ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.2 MB.
+System memory in use after: 114.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2053.
+Total: 2.913400 ms (FindLiveObjects: 0.118500 ms CreateObjectMapping: 0.032700 ms MarkObjects: 2.377100 ms  DeleteObjects: 0.384300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 

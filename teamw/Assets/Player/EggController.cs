@@ -112,6 +112,11 @@ public class EggController : MonoBehaviour {
                 Debug.Log("Right");
 				isTouch = true;	
 				animator.SetTrigger("HitBack");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+				{
+					SceneManager.LoadScene("Ending8");
+				    isCollision= true;
+				}
 			}
 
 
@@ -119,24 +124,44 @@ public class EggController : MonoBehaviour {
                 Debug.Log("Left");
 			    isTouch = true;
 				animator.SetTrigger("HitForward");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+				{
+					SceneManager.LoadScene("Ending8");
+				    isCollision= true;
+				}
 			}
 
             if (collision.gameObject.CompareTag("Animal") && (relativePoint.z > 0.2)){
                 Debug.Log("Forward");
 				isTouch = true;
 				animator.SetTrigger("HitForward");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+				{
+					SceneManager.LoadScene("Ending8");
+				    isCollision= true;
+				}
 			}
 
             else if (collision.gameObject.CompareTag("Animal") && (relativePoint.z < -0.2)){
                 Debug.Log("Back");
 				isTouch = true;
 				animator.SetTrigger("HitBack");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+				{
+					SceneManager.LoadScene("Ending8");
+				    isCollision= true;
+				}
 			}
 
             if (collision.gameObject.CompareTag("Human") && (relativePoint.x > 0.2)){
                 Debug.Log("Right");
 				isTouch = true;
 				animator.SetTrigger("HitBack");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+                {
+				    SceneManager.LoadScene("Ending7");
+				    isCollision= true;
+                }
 			}
 
 
@@ -144,35 +169,35 @@ public class EggController : MonoBehaviour {
                 Debug.Log("Left");
 			    isTouch = true;
 				animator.SetTrigger("HitForward");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+                {
+				    SceneManager.LoadScene("Ending7");
+				    isCollision= true;
+                }
 			}
 
             if (collision.gameObject.CompareTag("Human") && (relativePoint.z > 0.2)){
                 Debug.Log("Forward");
 				isTouch = true;
 				animator.SetTrigger("HitForward");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+                {
+				    SceneManager.LoadScene("Ending7");
+				    isCollision= true;
+                }
 			}
 
             else if (collision.gameObject.CompareTag("Human") && (relativePoint.z < -0.2)){
                 Debug.Log("Back");
 				isTouch = true;
 				animator.SetTrigger("HitBack");
+				if ((animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.28f))
+                {
+				    SceneManager.LoadScene("Ending7");
+				    isCollision= true;
+                }
 			}
 
-			//動物とぶつかったらエンド2へ
-			if (collision.gameObject.CompareTag("Animal") && (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f))
-            {
-				SceneManager.LoadScene("Ending8");
-				isTouch = true;
-				isCollision= true;
-            }
-
-			//人間とぶつかったらエンド3へ
-			if (collision.gameObject.CompareTag("Human") && (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathForward") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f)|| (animator.GetCurrentAnimatorStateInfo(0).IsName("DeathBack") && animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.38f))
-            {
-				SceneManager.LoadScene("Ending7");
-				isTouch = true;
-				isCollision= true;
-            }
 
 			if(collision.gameObject.name =="SpeedItem")
 			{
